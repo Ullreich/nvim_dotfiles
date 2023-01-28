@@ -1,0 +1,13 @@
+call plug#begin()
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' } " live markdown viewer
+
+" lsp stuff
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/mason.nvim' " automatically install lsp
+call plug#end()
+
+
+" share clipboard
+set clipboard=unnamedplus
+
+

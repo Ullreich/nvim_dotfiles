@@ -1,0 +1,8 @@
+" more ideas at https://www.reddit.com/r/neovim/top/?t=all
+" 		https://github.com/siduck76/NvChad
+
+" pluggins
+
+call plug#begin('~/.local/share/nvim/plugged')
+
+call plug#end()
